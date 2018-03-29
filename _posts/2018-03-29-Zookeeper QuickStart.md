@@ -7,7 +7,6 @@ tags:
 - IT
 ---
 
-# Zookeeper QuickStart
 本想看看kafaka的，没想到官网上来就让下载Zookeeper，所以先看看ZK  
 ### ZK安装 ，参考[官网](https://zookeeper.apache.org/doc/current/index.html)  
 1. pre-requisite：对于Mac来说不支持Native Client(没有对C语言提供类似Java的客户端来调用ZK)和Contrib功能，先不管。。  
