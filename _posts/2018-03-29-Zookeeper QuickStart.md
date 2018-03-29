@@ -4,7 +4,7 @@ date: 2018-03-29 20:13:00
 categories:
 - 分布式
 tags:
-- IT
+- Zookeeper
 ---
 
 本想看看kafaka的，没想到官网上来就让下载Zookeeper，所以先看看ZK  
