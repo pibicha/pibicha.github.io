@@ -1,10 +1,8 @@
 ---
-title: Categories
-date: 2018-03-29 23:30:09
+title: 迁移博客
+date: 2013-12-24 23:30:09
 categories:
-- 生活
-- 学习
-- 娱乐
+- No Matter
 ---
 
-This post contains 3 categories. Make sure your theme can display all of the categories.
+之前用Heroku的免费云平台托管了一个flask写的博客，使用起来太慢了... 现在迁移到这里。
