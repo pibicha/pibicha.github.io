@@ -9,18 +9,18 @@ tags:
 
 # Zookeeper QuickStart
 本想看看kafaka的，没想到官网上来就让下载Zookeeper，所以先看看ZK  
-### ZK安装 参考[官网](https://zookeeper.apache.org/doc/current/index.html)  
+### ZK安装及启动 ，参考[官网](https://zookeeper.apache.org/doc/current/index.html)  
 1. pre-requisite：对于Mac来说不支持Native Client(没有对C语言提供类似Java的客户端来调用ZK)和Contrib功能，先不管。。  
-2. 下载并解压zookeeper-3.4.10.tar，按照官网标准的文档或者参考解压后的conf/zoo_sample.cfg文件即可：  
+2. 下载并解压zookeeper-3.4.10.tar；启动ZK服务需要创建`conf/zoo.cfg`文件，按照官网标准的文档或者参考解压后的conf/zoo_sample.cfg文件即可：  
 ```shell  
 tickTime=2000  
 dataDir=/var/lib/zookeeper  
 clientPort=2181
 ```  
-tickTime是心跳时间，最小会话时间是他的两倍（不知道翻译错没.）  
-dataDir是数据存放目录，是快照和数据存放的位置，最好不要放\tmp下，Centos7会自动清理\tmp下的内容   
-3. 回到解压zk的目录下执行`bin/zkServer.sh start`即可启动ZK（ZK的log使用的是log4j）  
-可以自己设置输出格式和目录：  
+tickTime是心跳时间，会话最短超时时间是他的两倍（不知道翻译错没...）  
+dataDir是数据存放目录，是快照和数据存放的位置，最好不要放\tmp下，Centos7会自动清理\tmp下的内容  
+clientPort是启动端口；
+3. 回到解压zk的目录下执行`bin/zkServer.sh start`即可启动ZK（ZK的log使用的是log4j,而且Zk是Apache用Java实现的），所以可以通过`java`命令设置输出日志格式和输出目录：  
 ```shell    
  java -cp zookeeper.jar:lib/slf4j-api-1.6.1.jar:lib/slf4j-log4j12-1.6.1.jar:lib/log4j-1.2.15.jar:conf org.apache.zookeeper.server.PurgeTxnLog <dataDir> <snapDir> -n <count>  
 ```
