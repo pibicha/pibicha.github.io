@@ -1,21 +1,6 @@
 ---
-layout: category
+layout: layout
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include navigation.html %}
-    <div class="application">
-      {% include global.html %}
-      {% include search.html %}
-      {% include header.html %}
-      <section class="wrapper category-main">
-        {{content}}
-      </section>
-    </div>
-  </body>
-  {% include footer.html %}
-</html>
+
+{% assign __ = site.data.languages[site.language] %}
+{% include category.html %}
