@@ -7,6 +7,7 @@ tags:
 - Zookeeper
 ---  
 
+==原文的client在以下都被我作为session来解释==
 
 ### 官网对ZK Sessions的解释  
 ![image](http://ww2.sinaimg.cn/large/0060lm7Tly1fpumw0kmz9j311t0ehwgc.jpg
@@ -50,4 +51,5 @@ Session过期不是由会话决定，而是由各自的节点服务决定；当�
 ```
 
 ---
-接下来再看看watcher
+3.2.0 新增一个`SessionMovedException`异常，出现在一个zk服务发送给session消息但是超时了，随后创建了一个新的session，但是新的session又收到了之前节点发送的数据  
+
