@@ -7,7 +7,7 @@ tags:
 - Zookeeper
 ---  
 
-在ZK的读操作上：`getData()`,`getChildern()`,`exists()`上，可以自己选择是否设置watch；对于watch的定义官方说是一次性触发，发送给session来设置，被标记为需要观察的数据在改变时能被发现；  
+在ZK的读操作上：`getData()`,`getChildern()`,`exists()`上，可以自己选择是否设置watch；
 有三种设置：
 ### 一次性触发  
 `getData('path',true)`，当path下的数据被删除或更新时，session会收到事件；path下的数据再次更新时，不会发送  
