@@ -7,6 +7,7 @@ tags:
 - Zookeeper
 ---  
 
+
 ### 官网对ZK Sessions的解释  
 ![image](http://ww2.sinaimg.cn/large/0060lm7Tly1fpumw0kmz9j311t0ehwgc.jpg
 )  
@@ -30,5 +31,23 @@ To create a client session the application code must provide a connection string
 当一个会话是由不同IP上服务组成时，会去寻找session创建时的连接字符中的机器（上文有提到），当会话中至少一个节点服务在重连时，session的状态会过度为已连接或过期（如果重连超过了timeout时间）； 不建议创建一个新的session会话（由于ZK的底层实现会新生成一个ZooKee.class），ZK的底层会为程序员自动处理重连。之所以由ZK底层强制实现，是为了避免已以往出现的“惊群”现象
 
 ### Session过期  
-Session过期不是由ZK集群决定，而是由各自的节点服务决定
+Session过期不是由会话决定，而是由各自的节点服务决定；当节点没有在指定的时间内收到会话的心跳时，会话终结时刻，节点会删除此session的`/`目录下的所有临时节点，并立即通知所有连接的ZK节点所发生的变化；  
+当session处于断开连接的时候，是无法通知到会话中各个子节点的；此时就需要`Watcher`  
 
+对于Session状态迁移的过程Example:  
+```
+'connected' : session is established and client is communicating with cluster (client/server communication is operating properly)
+
+.... client is partitioned from the cluster
+
+'disconnected' : client has lost connectivity with the cluster
+
+.... time elapses, after 'timeout' period the cluster expires the session, nothing is seen by client as it is disconnected from cluster
+
+.... time elapses, the client regains network level connectivity with the cluster
+
+'expired' : eventually the client reconnects to the cluster, it is then notified of the expiration
+```
+
+---
+接下来再看看watcher
