@@ -7,7 +7,7 @@ tags:
 - Zookeeper
 ---  
 
-==原文的client在以下都被我作为session来解释==
+**原文的client在以下都被我作为session来解释**
 
 ### 官网对ZK Sessions的解释  
 ![image](http://ww2.sinaimg.cn/large/0060lm7Tly1fpumw0kmz9j311t0ehwgc.jpg
