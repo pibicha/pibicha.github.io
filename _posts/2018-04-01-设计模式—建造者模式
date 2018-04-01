@@ -6,6 +6,7 @@ categories:
 tags:
 - Java
 ---  
+
 这个模式比较简单，基于包装模式之上，使用连缀方式，创建常用类的实例。  
 [具体栗子](https://github.com/ihaolin/wepay/blob/master/wepay-core/src/main/java/me/hao0/wepay/core/WepayBuilder.java)，引用自`https://github.com/ihaolin/wepay`项目。
 
