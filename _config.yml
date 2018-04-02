@@ -22,7 +22,7 @@ archive:
   paginate: 10
   #paginate_path: "/page:num/"
 category:
-  paginate: 5
+  paginate: 10
   #paginate_path: "/page:num/"
 tag:
   paginate: 10
