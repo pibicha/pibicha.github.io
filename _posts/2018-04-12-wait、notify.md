@@ -33,7 +33,7 @@ public class WaitNotityTest {
                     Thread.sleep(3000);
                     System.out.println("烤好第" + i + "个面包");
                     waitNotityTestClass.wait(); // 每生产一个面包，即等待消费者去消费
-                    waitNotityTestClass.notify(); //  通知消费者以产出——等待消费 （fixme 这里我找了下为啥不会唤醒自己，网上看到的解释说是唤醒第一个相关线程；由于生产者和消费者是并发执行，消费者的“空腹等待”发生在生产者的“等待消费”之前吧…… 这里不是很严谨。。）
+                    waitNotityTestClass.notify(); //  通知消费者以产出——等待消费 （fixme 这里我找了下为啥不会唤醒自己，因为在上一行中，此线程已经放弃cpu使用权，没机会执行到这一步了；所以不会自己wait又调用notify唤醒自己的可能性！）
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -71,3 +71,7 @@ public class WaitNotityTest {
 }
 
 ```
+
+---  
+在bake方法生产时，设定每生产一个产品都会进入等待，所以下一行代码就执行不到了，于是不可能会出现自己wait又自己notify的可能； 只有当拥有同一个锁的消费者在eat方法中，消费完以后通过notify方法，才能唤醒刚刚停滞在等待状态的生产者。  
+
