@@ -33,7 +33,7 @@ public class WaitNotityTest {
                     Thread.sleep(3000);
                     System.out.println("烤好第" + i + "个面包");
                     waitNotityTestClass.wait(); // 每生产一个面包，即等待消费者去消费
-                    waitNotityTestClass.notify(); //  通知消费者以产出——等待消费 （fixme 这里我找了下为啥不会唤醒自己，因为在上一行中，此线程已经放弃cpu使用权，没机会执行到这一步了；所以不会自己wait又调用notify唤醒自己的可能性！）
+                    waitNotityTestClass.notify(); //  通知消费者以产出——等待消费 （fixme 这里我找了下为啥不会唤醒自己，因为在上一行中，此线程已经放弃cpu使用权，没机会执行到这一步了；所以不会有自己wait又调用notify唤醒自己的可能性！）
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -42,14 +42,14 @@ public class WaitNotityTest {
     }
 
     public static void eat() {
-        synchronized (WaitNotityTest.class) {
+        synchronized (WaitNotityTest.class) { 
             for (int i = 1; i <= 10; i++) {
                 try {
                     Thread.sleep(3000);
                     System.out.println("吃了第" + i + "个面包");
                     Class<WaitNotityTest> waitNotityTestClass = WaitNotityTest.class;
-                    waitNotityTestClass.notify(); // 通知生产者已消费；
-                    waitNotityTestClass.wait(); // 等待生产者再次产出——空腹等待
+                    waitNotityTestClass.notify(); // 通知生产者已消费；（fixme notify会通知等待队列中的第一个相关进程，使其有机会获得CPU使用权运行）
+                    waitNotityTestClass.wait(); // 等待生产者再次产出——空腹等待 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -75,3 +75,6 @@ public class WaitNotityTest {
 ---  
 在bake方法生产时，设定每生产一个产品都会进入等待，所以下一行代码就执行不到了，于是不可能会出现自己wait又自己notify的可能； 只有当拥有同一个锁的消费者在eat方法中，消费完以后通过notify方法，才能唤醒刚刚停滞在等待状态的生产者。  
 
+### 总结  
+Object的wait方法，会导致拥有锁的线程变成等待（阻塞）状态、并且放弃CPU的使用权，在wait方法所在的代码中，它的后续代码将无法执行；  
+notify方法，会通知等待队列中的第一个相关线程（不会通知优先级比较高的线程），使得之前wait的线程有机会执行它之后的代码。
