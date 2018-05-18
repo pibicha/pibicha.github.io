@@ -69,7 +69,7 @@ export default Button
 render方法中，使用了js原生的map方法，将数组users做了一些处理，从语法上来说：在render方法中，遇到html标签使用'<xx>'即可，遇到js代码就使用'{}'来包含住js代码即可。
 
 ### 组件的props
-react的props和java无法做比较，因为它不是字面上的“属性”，props是用来在使用组件时传递消息的，和<input>标签的value属性功能一样；
+react的props和java无法做比较，因为它不是字面上的“属性”，props是用来在使用组件时传递消息的，和`input`标签的value属性功能一样；
 使用例子：
 ```react
 import React, {Component} from 'react';
@@ -120,7 +120,7 @@ export default State
 上面的例子中，state可以直接在类中声明，并赋初始值；在render方法中每次点击文本，触发handleClick事件都会更新state的值~
 
 再看下props与state的功能和区别：  
-props是用来做标签之间的交互的，类似于<input>标签的value属性，可以从用户那获取输入值；  
+props是用来做标签之间的交互的，类似于`input`标签的value属性，可以从用户那获取输入值；  
 state是组件本身的属性，可以写到组件之中，和java的成员属性一样，可以写到类里面一样；state可以用来控制组件的行为；  
 
 - props就是java中的方法入参，用来传递消息
