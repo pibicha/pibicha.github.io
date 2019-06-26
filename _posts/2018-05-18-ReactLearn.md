@@ -5,6 +5,9 @@ categories:
 - 前端
 tags:
 - React
+description:
+image: https://wx3.sinaimg.cn/mw1024/006ip90Vly1g4ey32j4ydj30u016fdh4.jpg
+image-sm: https://wx3.sinaimg.cn/mw1024/006ip90Vly1g4ey32j4ydj30u016fdh4.jpg
 ---  
 
 最近要写前端，以前对前端五花八门的库、框架都不知道怎么入手，就会写JavaScript，听说了react的all in js ，于是尝试一下。  
