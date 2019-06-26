@@ -29,7 +29,7 @@ compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
-include: ["_categories"]
+
 exclude:
   - _screenshots
   - .DS_Store
