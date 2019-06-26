@@ -3,7 +3,7 @@ layout: post
 title: "切换博客主题"
 date: 2019-06-26
 categories:
-  - other
+  - NoMatter
 description:
 image: https://picsum.photos/2000/1200?image=1003
 image-sm: https://picsum.photos/500/300?image=1003
