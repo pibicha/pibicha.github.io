@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59e4fc8-850b-401b-994f-9ef946c3b1d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_categories/juice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/category.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_categories/juice.html" afterPath="$PROJECT_DIR$/_categories/nomatter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +24,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="juice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_categories/juice.html">
+      <file leaf-file-name="nomatter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_categories/nomatter.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-03-29-迁移博客.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -67,14 +79,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#figure#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +154,8 @@
         <option value="$PROJECT_DIR$/_posts/2016-02-19-craft-beer.markdown" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_categories/juice.html" />
         <option value="$PROJECT_DIR$/_includes/category.html" />
+        <option value="$PROJECT_DIR$/_categories/juice.html" />
       </list>
     </option>
   </component>
@@ -187,6 +197,11 @@
             <path>
               <item name="pibicha.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="pibicha.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pibicha.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pibicha.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,7 +212,7 @@
             <path>
               <item name="pibicha.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="pibicha.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +342,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561558015193</updated>
       <workItem from="1561558016386" duration="2176000" />
-      <workItem from="1561560467346" duration="5978000" />
+      <workItem from="1561560467346" duration="6092000" />
     </task>
     <task id="LOCAL-00001" summary="update theme">
       <created>1561558348880</created>
@@ -469,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561566688026</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update">
+      <created>1561567116339</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561567116339</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8154000" />
+    <option name="totallyTimeSpent" value="8268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="140" width="1387" height="719" extended-state="0" />
@@ -1021,17 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-02-19-craft-beer.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1112,26 +1123,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_plugins/category_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_categories/juice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1146,11 +1141,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#figure#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_plugins/category_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_categories/nomatter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
