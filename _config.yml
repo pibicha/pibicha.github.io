@@ -4,9 +4,9 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 title: Poan
-description: 你看那个人好像一条狗啊
-url: "https://pibicha.github.io/"
-baseurl: "https://pibicha.github.io/"
+description:
+url: ""
+baseurl: ""
 twitter_username: 
 default_img: 
 
@@ -15,12 +15,10 @@ name: Po1an
 profile_img: https://wx3.sinaimg.cn/mw690/006ip90Vly1g4ex6qrlt2j30tz16eq5k.jpg
 profile: 
 social:
-  github: https://github.com/pibicha
+  github: https://github.com/
 
 # Build settings
 markdown: kramdown
-kramdown:
-    input: GFM
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -29,7 +27,6 @@ compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
-
 exclude:
   - _screenshots
   - .DS_Store
@@ -37,7 +34,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.txt
   - README.md
-
+include: ["_categories"]
 # Pagination
 paginate: 5
 paginate_path: "/blog/page-:num"
