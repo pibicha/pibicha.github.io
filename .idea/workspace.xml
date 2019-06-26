@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f59e4fc8-850b-401b-994f-9ef946c3b1d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md" afterPath="$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-31-Java8的lambda.md" afterPath="$PROJECT_DIR$/_posts/2018-03-31-Java8的lambda.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,13 +37,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-29-迁移博客.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-03-29-迁移博客.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="68">
                 <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-03-31-Java8的lambda.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-Java8的lambda.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-03-31-设计模式—模版方法两种实现方法.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-设计模式—模版方法两种实现方法.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1561557950659" expanded="true" signature="209:322" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="236:320" ph="{}" />
+                  <marker date="1561557950659" expanded="true" signature="242:309" ph="//..." />
+                  <marker date="1561557950659" expanded="true" signature="337:450" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="364:448" ph="{}" />
+                  <marker date="1561557950659" expanded="true" signature="370:437" ph="//..." />
+                  <marker date="1561557950659" expanded="true" signature="681:860" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="712:810" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="889:952" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="918:945" ph="{}" />
+                  <marker date="1561557950659" expanded="true" signature="980:1043" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1009:1036" ph="{}" />
+                  <marker date="1561557950659" expanded="true" signature="1096:1269" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1168:1262" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1285:1366" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1311:1364" ph="{}" />
+                  <marker date="1561557950659" expanded="true" signature="1381:1462" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1407:1460" ph="{}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-04-01-设计模式—Monad模式与参数校验.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-04-01-设计模式—Monad模式与参数校验.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1561557950659" expanded="false" signature="551:782" ph="..." />
+                  <marker date="1561557950659" expanded="true" signature="784:967" ph="/**...*/" />
+                  <marker date="1561557950659" expanded="false" signature="1096:1107" ph=" { " />
+                  <marker date="1561557950659" expanded="false" signature="1135:1141" ph=" }" />
+                  <marker date="1561557950659" expanded="true" signature="1245:1345" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1352:1403" ph="/**...*/" />
+                  <marker date="1561557950659" expanded="true" signature="1451:1711" ph="{...}" />
+                  <marker date="1561557950659" expanded="true" signature="1718:1741" ph="/**...*/" />
+                  <marker date="1561557950659" expanded="true" signature="1772:2472" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -113,6 +181,7 @@
         <option value="$PROJECT_DIR$/_posts/test.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-03-31-Java8的lambda.md" />
       </list>
     </option>
   </component>
@@ -279,7 +348,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561558015193</updated>
       <workItem from="1561558016386" duration="2176000" />
-      <workItem from="1561560467346" duration="2692000" />
+      <workItem from="1561560467346" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="update theme">
       <created>1561558348880</created>
@@ -365,11 +434,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561563149845</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1561563372414</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561563372414</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4868000" />
+    <option name="totallyTimeSpent" value="5031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="91" width="1387" height="719" extended-state="0" />
@@ -585,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-02-19-craft-beer.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -612,12 +680,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-02-19-craft-beer.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-03-29-迁移博客.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
             <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-Java8的lambda.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-设计模式—模版方法两种实现方法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1561557950659" expanded="true" signature="209:322" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="236:320" ph="{}" />
+              <marker date="1561557950659" expanded="true" signature="242:309" ph="//..." />
+              <marker date="1561557950659" expanded="true" signature="337:450" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="364:448" ph="{}" />
+              <marker date="1561557950659" expanded="true" signature="370:437" ph="//..." />
+              <marker date="1561557950659" expanded="true" signature="681:860" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="712:810" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="889:952" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="918:945" ph="{}" />
+              <marker date="1561557950659" expanded="true" signature="980:1043" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1009:1036" ph="{}" />
+              <marker date="1561557950659" expanded="true" signature="1096:1269" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1168:1262" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1285:1366" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1311:1364" ph="{}" />
+              <marker date="1561557950659" expanded="true" signature="1381:1462" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1407:1460" ph="{}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-01-设计模式—Monad模式与参数校验.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1561557950659" expanded="false" signature="551:782" ph="..." />
+              <marker date="1561557950659" expanded="true" signature="784:967" ph="/**...*/" />
+              <marker date="1561557950659" expanded="false" signature="1096:1107" ph=" { " />
+              <marker date="1561557950659" expanded="false" signature="1135:1141" ph=" }" />
+              <marker date="1561557950659" expanded="true" signature="1245:1345" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1352:1403" ph="/**...*/" />
+              <marker date="1561557950659" expanded="true" signature="1451:1711" ph="{...}" />
+              <marker date="1561557950659" expanded="true" signature="1718:1741" ph="/**...*/" />
+              <marker date="1561557950659" expanded="true" signature="1772:2472" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
