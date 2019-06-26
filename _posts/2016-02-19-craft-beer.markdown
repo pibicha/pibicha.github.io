@@ -8,7 +8,6 @@ description:
 image: https://picsum.photos/2000/1200?image=1003
 image-sm: https://picsum.photos/500/300?image=1003
 ---
-
 看着这个主题很好看，于是换成这个～ 更有心情写写东西了；或者用来发布漫画也行～。～
 
 感谢[作者](https://thomasvaeth.github.io/trophy-jekyll/)的开源～
