@@ -4,8 +4,8 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 title: Poan
-description: 
-url: ""
+description: 你看那个人好像一条狗啊
+url: "https://pibicha.github.io/"
 baseurl: ""
 twitter_username: 
 default_img: 
@@ -19,6 +19,8 @@ social:
 
 # Build settings
 markdown: kramdown
+kramdown:
+    input: GFM
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
