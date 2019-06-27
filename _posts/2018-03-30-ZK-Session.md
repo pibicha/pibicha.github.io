@@ -5,6 +5,9 @@ categories:
 - 分布式
 tags:
 - Zookeeper
+description:
+image: https://picsum.photos/id/37/2000/1200
+image-sm: https://picsum.photos/id/37/500/300
 ---  
 
 **原文的client在以下都被我作为session来解释**

@@ -5,6 +5,9 @@ categories:
 - 分布式
 tags:
 - Zookeeper
+description:
+image: https://picsum.photos/id/40/2000/1200
+image-sm: https://picsum.photos/id/40/500/300
 ---
 
 本想看看kafaka的，没想到官网上来就让下载Zookeeper，所以先看看ZK  

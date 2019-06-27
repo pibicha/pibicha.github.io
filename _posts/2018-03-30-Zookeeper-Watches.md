@@ -5,6 +5,9 @@ categories:
 - 分布式
 tags:
 - Zookeeper
+description:
+image: https://picsum.photos/id/36/2000/1200
+image-sm: https://picsum.photos/id/36/500/300
 ---  
 
 在ZK的读操作上：`getData()`,`getChildern()`,`exists()`上，可以自己选择是否设置watch；

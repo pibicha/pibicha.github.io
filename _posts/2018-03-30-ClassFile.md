@@ -5,6 +5,9 @@ categories:
 - JVM
 tags:
 - [ClassFile,static]
+description:
+image: https://picsum.photos/id/38/2000/1200
+image-sm: https://picsum.photos/id/38/500/300
 ---
 
 

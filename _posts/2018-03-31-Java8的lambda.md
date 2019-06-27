@@ -5,6 +5,9 @@ categories:
 - Java8
 tags:
 - Java
+description:
+image: https://picsum.photos/id/35/2000/1200
+image-sm: https://picsum.photos/id/35/500/300
 ---  
 - 在java7以前，叫做匿名内部类
 - java8以后叫lambda，也就是闭包
