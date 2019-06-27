@@ -2,7 +2,7 @@
 title: wait、notify——生产者消费者
 date: 2018-04-05 14:58:00
 categories:
-- Thread
+- MultiThread
 tags:
 - [Java,Thread]
 ---  
