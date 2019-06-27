@@ -5,6 +5,9 @@ categories:
 - MultiThread
 tags:
 - [Java,Thread]
+description:
+image: https://picsum.photos/id/14/2000/1200
+image-sm: https://picsum.photos/id/14/500/300
 ---  
 
 在Java中，wait、notify、notifyAll是Object的方法，在java中任何对象都可以作为锁，而这几个方法必须得在获取锁以后才能使用，否则会报`InterruptedException`异常  

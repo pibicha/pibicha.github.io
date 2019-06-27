@@ -5,6 +5,9 @@ categories:
 - 分布式
 tags:
 - Zookeeper
+description:
+image: https://picsum.photos/id/99/2000/1200
+image-sm: https://picsum.photos/id/99/500/300
 ---  
 
 [参考](https://cwiki.apache.org/confluence/display/ZOOKEEPER/Zab+vs.+Paxos)

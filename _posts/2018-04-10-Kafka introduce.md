@@ -3,6 +3,9 @@ title: Kafka 介绍
 date: 2018-04-10 11:14:00
 categories:
 - Kafka
+description:
+image: https://picsum.photos/id/16/2000/1200
+image-sm: https://picsum.photos/id/16/500/300
 ---  
 
 kafka的介绍，照搬官网，自己在翻译一下…… 是时候展现我英语水平技术的时候了……  

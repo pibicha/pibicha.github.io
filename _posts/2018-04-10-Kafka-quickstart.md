@@ -3,6 +3,9 @@ title: Kafka quickstart
 date: 2018-04-10 11:50:00
 categories:
 - Kafka
+description:
+image: https://picsum.photos/id/15/2000/1200
+image-sm: https://picsum.photos/id/15/500/300
 ---  
 
 kafka底层有用到zookeeper，之前有看过；  

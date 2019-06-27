@@ -3,6 +3,9 @@ title: Hadoop quick start
 date: 2018-04-10 23:14:00
 categories:
 - Hadoop
+description:
+image: https://picsum.photos/id/17/2000/1200
+image-sm: https://picsum.photos/id/17/500/300
 ---  
 
 ### docker安装Hadoop镜像

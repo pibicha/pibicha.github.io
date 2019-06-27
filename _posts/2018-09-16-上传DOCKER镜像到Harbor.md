@@ -6,8 +6,8 @@ categories:
 tags:
 - 容器
 description:
-image: https://picsum.photos/2000/1200?image=1003
-image-sm: https://picsum.photos/2000/1200?image=1003
+image: https://picsum.photos/id/10/2000/1200
+image-sm: https://picsum.photos/id/10/500/300
 ---  
 
 
