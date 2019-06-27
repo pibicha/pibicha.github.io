@@ -13,9 +13,7 @@ default_img:
 # Profile settings
 name: Po1an
 profile_img: https://wx3.sinaimg.cn/mw690/006ip90Vly1g4ex6qrlt2j30tz16eq5k.jpg
-profile: "你看
-
-              那个人好像一条狗啊"
+profile: 你看那个人好像一条狗啊
 social:
   github: https://github.com/
 
